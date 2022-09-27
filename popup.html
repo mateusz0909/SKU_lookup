@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>SKU Lookup tool</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href='css/loader-btn.css' />
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+  <div class="container">
+
+    <h1 id="headline"><span><img src="media/pf23.png" alt="image"></span> SKU lookup tool</h1>
+    <form id="form">
+
+      <div class="form-group">
+        <input type="text" name="input" id="input" class="form-control " placeholder="Paste EAN or FPC codes"
+          aria-describedby="helpId" required>
+        <br>
+
+        <div class="alert alert-danger" role="alert" id='alert'>
+          Enter valid numbers space separated!
+        </div>
+        <select name="countries" id="edit" class="custom-select">
+          <!-- <option value="nn-NO">Norway(Bokmål)</option> -->
+          <option value='empty' selected>Select country</option>
+          
+          <option value="de-AT">Austria</option>
+          <option value="fr-BE">Belgium(fr)</option>
+          <option value="nl-BE">Belgium(nl)</option>
+          <option value="cs-CZ">Czechia</option>          
+          <option value="dk-DK">Denmark</option>
+          <option value="fr-FR">France</option>         
+          <option value="fi-FI">Finland</option>
+          <option value="de-DE">Germany</option>
+          <option value="hu-HU">Hungary</option>          
+          <option value="it-IT">Italy</option>          
+          <option value="nl-NL">Netherlands</option>
+          <option value="nn-NO">Norway(Nynorsk)</option>
+          <option value="pl-PL">Poland</option>
+          <option value="pt-PT">Portugal</option>
+          <option value="ru-RU">Russia</option>
+          <option value="sk-SK">Slovakia</option>
+          <option value="es-ES">Spain</option>
+          <option value="en-CH">Switzerland(en)</option>
+          <option value="it-CH">Switzerland(it)</option>
+          <option value="de-CH">Switzerland(de)</option>
+          <option value="sv-SE">Sweden</option>
+          <option value="tr-TR">Turkey</option>
+          <option value="en-GB">United Kingdom</option>
+          <select name="countries" id='edit' class="custom-select">
+        </select>      
+
+      <div class="custom-control custom-switch pt-2">
+        <input type="checkbox" class="custom-control-input" id="safe">
+        <label class="custom-control-label" for="safe">Safe search</label>
+        <span id= 'tooltip' class="material-icons-outlined material-icons"> info </span>
+      </div>
+    
+  </div>
+
+  <button  type="button" name="" id="button" class="btn btn-primary btn-block button ld-ext-right">
+    <div class="ld ld-ring ld-spin"></div>
+    OPEN IN SYNTHRONE
+    <div>
+  </button>
+</div>
+  
+  </form>
+
+
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popup2.js"></script>
+  <script src="js/localstorage.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/tippy-bundle.js"></script>
+  <script src= 'js/tooltip.js'></script>
+
+</body>
+
+</html>
