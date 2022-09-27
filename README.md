@@ -1,7 +1,7 @@
 
 # SKU Lookup Tool
 
-This simple Chrome extension tool allows interal users in Pathfinder23 search for products in Synthrone Browser faster and more elegant manner.
+This simple Chrome extension tool allows interal users in Pathfinder23 search for products in Synthrone Browser faster and in a more elegant manner.
 ## Tech Stack
 
 **Client:** JS, CSS, HTML
