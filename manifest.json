@@ -1,16 +1,15 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
 
-    "manifest_version": 3,
- 
-    "name": "SKU lookup tool", 
-    "description": "EAN and FPC numbers search tool",
-    "version": "1.36",
-    "author": "Mateusz",
-    "action": {
-        "default_icon": { "32": "icon.png" },
-        "default_popup": "popup.html",
-        "default_title": "SKU lookup tool"
-    }
-     
+  "manifest_version": 3,
+
+  "name": "SKU lookup tool",
+  "description": "EAN and FPC numbers search tool",
+  "version": "1.37",
+  "author": "Mateusz",
+  "action": {
+    "default_icon": { "32": "icon.png" },
+    "default_popup": "popup.html",
+    "default_title": "SKU lookup tool"
+  }
 }
